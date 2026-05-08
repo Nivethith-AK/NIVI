@@ -75,14 +75,12 @@ export function HeroSection() {
         transition={{ duration: 8, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
       />
       <motion.div
-        className="absolute bottom-40 right-20 w-32 h-32 rounded-full bg-[#FF1493]/10 blur-3xl"
-        animate={{
-          x: [0, -40, 0],
-          y: [0, 30, 0],
-          scale: [1, 1.2, 1],
-        }}
-        transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-      />
+              animate={{
+                y: [0, 30, 0],
+                scale: [1, 1.2, 1],
+              }}
+              transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+            />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-24 pb-12">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
@@ -219,11 +217,10 @@ export function HeroSection() {
 
               <motion.div
                 animate={{
-                  y: [0, -15, 0],
-                  rotate: [0, 2, 0],
+                  y: [0, -8, 0],
                 }}
                 transition={{
-                  duration: 6,
+                  duration: 8,
                   repeat: Number.POSITIVE_INFINITY,
                   ease: "easeInOut",
                 }}

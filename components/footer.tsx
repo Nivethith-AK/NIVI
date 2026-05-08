@@ -199,8 +199,8 @@ export function Footer() {
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
             <span className="text-xl font-black">
-              <span className="text-white">Gi</span>
-              <span className="text-[#FF1493]">Ni</span>
+              <span className="text-white">NI</span>
+              <span className="text-[#FF1493]">VI</span>
             </span>
           </motion.div>
 
