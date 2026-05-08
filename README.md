@@ -25,9 +25,9 @@ NIVI Energy Drink is a marketing site built with the Next.js App Router. It incl
 
 ## Homepage Preview
 
-![NIVI Energy Drink homepage preview](public/readme-homepage.png)
+![NIVI Energy Drink Full Website Preview](public/readme-homepage.png)
 
-The preview above is a live screenshot captured from the current local build.
+**Full website screenshot** showing the complete landing page from hero section to footer. This is a live capture of the current local build running on port 3001.
 
 ## Tech Stack
 
